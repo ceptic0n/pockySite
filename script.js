@@ -5,7 +5,7 @@ const bentoButton = document.querySelector(".generator");
 
 const vegetable = ["brocoli", "salted tomato", "kimchi", ]
 const protein = ["Beef & onyon", "egg", "Katsu", "Chicken Wings", "Spinach Tamagoyaki", "Panfried Scallops","Salmon", "tuna"]
-const dessert = ["kit kat", "muffin", "PANCAKE", "gummies", "churro"];
+const dessert = ["kit kat", "muffin", "PANCAKE", "churro", "fruits"];
 
 
 
