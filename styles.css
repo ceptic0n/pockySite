@@ -13,3 +13,50 @@ body{
     background-color: darkgray;
     font-family: "Inconsolata", monospace;
 }
+
+
+.bentoBox{
+  border: 20px solid #ff6550;
+  height: 250px;
+  width: 400px;
+  border:5px solid red;
+  display:flex;
+}
+
+.rice{
+  border: 20px solid blue;
+  height: 100%;
+  width: 50%;
+  border: 5px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fillers{
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.protein, .vegetable, .extra{
+  height: calc(100% / 3);
+  width: 100%;
+  border: 5px solid;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.protein{
+  border-color:green;
+}
+
+.vegetable{
+  border-color:yellow;
+}
+
+.extra{
+  border-color:purple;
+}
