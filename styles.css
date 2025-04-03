@@ -1,35 +1,76 @@
 .container{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template:1fr/ 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap:10px;
+    height: 100vh;
+    width: 100%;
 }
 
-.blue, .red, .green{
-    height:200px;
+.box{
     width:200px;
-    border-radius: 25px;
-}
-
-
-.blue{
-    background-color: blue;
-}
-
-.blue:active{
-    background-color: darkblue;
-}
-
-.red{
-    background-color: red;
-}
-.red:active{
+    height:200px;
+    
+    display:grid;
+    grid-template-rows:32px 6fr;
+    
+    background-color:darkgray;
+    border-radius:5px;
+    border:5px solid blue;
+  }
+  
+  .toolbar{
+    background-color:blue;
+    display:grid;
+    grid-template-columns:30px 5fr 30px 30px;
+    grid-template-rows:1fr 1fr;
+    gap:3px;
+  
+  }
+  
+  .icon{
+    color:white;
+    background-color:purple;
+    border-radius:15px;
+    padding:5px;
+    text-align:center;
+  }
+  
+  .name{
+    color:white;
+    line-height:28px;
+  }
+  
+  .minimize{
+    color:white;
+    background-color:green;
+    border-radius:5px;
+    border:1px solid white;
+    text-align:center;
+    
+  }
+  .minimize:active{
+    background-color:darkgreen;
+  }
+  
+  .close{
+    color:white;
+    background-color:red;
+    border-radius:5px;
+    border:1px solid white;
+    text-align:center;
+    line-height:28px;
+  }
+  
+  .close:active{
     background-color:darkred;
-}
-
-.green{
-    background-color: green;
-}
-
-.green:active{
-    background-color: darkgreen;
-}
+  }
+  
+  
+  content{
+    padding:10px;
+  }
+  
+  
+  
