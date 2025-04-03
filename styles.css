@@ -1,3 +1,11 @@
+html, body { 
+    background: url(prettyclouds.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .container{
     display:grid;
     grid-template:1fr/ 1fr 1fr 1fr;
