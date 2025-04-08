@@ -1,7 +1,18 @@
 html { 
-    background: url(images/bg.jpg) no-repeat center center fixed; 
+    background: url(pictures/grass.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+body{
+    display:grid;
+    grid-template:1fr 3fr 1fr 1fr/ 1fr;
+
+}
+
+.header, .hero, .content, .footer{
+    background-color: darkgray;
+    border:2px solid ;
 }
